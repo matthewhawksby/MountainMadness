@@ -53,7 +53,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            This is an example to show that we can modify the page!
+            THIS IS AN EXAMPLE TO SHOW THAT WE MODIFIED THE PAGE!
           </p>
         </a>
 
