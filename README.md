@@ -7,3 +7,7 @@ Katie,
 Cindy Xiao,
 Samuel Nygard,
 Quang Anh Pham
+
+Techs:
+React
+Vercel
