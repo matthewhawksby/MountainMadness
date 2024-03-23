@@ -1,4 +1,23 @@
 import Image from "next/image";
+import { sql } from "@vercel/postgres";
+
+export async function DrawInfoFromDatabase({
+  params
+} : {
+  params: { user: string }
+}): Promise<JSX.Element> {
+  const { rows } = await sql`SELECT username from USERS`;
+
+  return (
+    <div>
+      {rows.map((row, index) => (
+        <div key={index}>
+          {row.username}
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -106,6 +125,9 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+      <div>
+        <DrawInfoFromDatabase params={{ user: 'DoesNotDoAnything'}} />
       </div>
     </main>
   );
