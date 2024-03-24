@@ -1,8 +1,14 @@
 import React from 'react'
+import ListAllImages from "./getImage";
+
 
 const Swiping = () => {
   return (
-    <div>Swiping</div>
+    <main>
+      <div>
+        <ListAllImages/>
+      </div>
+    </main>
   )
 }
 
