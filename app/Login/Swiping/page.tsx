@@ -3,6 +3,7 @@ import ListAllImages from "./getImage";
 
 
 const Swiping = () => {
+  let x = 0
   return (
     <main>
       <div>
