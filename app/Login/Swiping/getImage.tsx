@@ -6,7 +6,7 @@ export default async function ListAllImages() {
     
     
     return(
-    <img src={response.blobs[3].downloadUrl} alt={response.blobs[3].pathname} width={500} height={500}/>
+    <img src={response.blobs[0].downloadUrl} alt={response.blobs[0].pathname} width={500} height={500}/>
     )
       {/* {response.blobs.map((blob) => (
         <div key={blob.pathname}>
