@@ -1,6 +1,8 @@
 import React from 'react';
 import '../globals.css';
 
+//Changes!
+
 const About = () => {
   return (
     <div className="AboutUs w-96 h-96 relative bg-white">
