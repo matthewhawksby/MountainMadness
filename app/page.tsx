@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <section className="section">
-        <h1 className="title">PawSwipe   App</h1>
+        <h1 className="title">PawSwipe</h1>
       </section>        
       <br></br>
       <br></br>
@@ -23,7 +23,7 @@ export default function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <Link href="/Login" className="signin">Sign in</Link>
+      <Link href="/Login" className="login">Log in</Link>
       <Link href="/About" className="about">About</Link>
 
     </main>
