@@ -17,16 +17,17 @@
 }
 
 body {
-    padding: 1rem;
-    background-image: url('./img/dog.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    width: 100%;
-    height: 100vh; /* Set height to 100vh */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    opacity:60%;
+  padding: 1rem;
+  background-image: url('./img/dog.jpg');
+  background-color: #cccccc;  /* in case image failed */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh; /* Set height to 100vh */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  opacity: 70%;
 }
 
 .section {
@@ -37,47 +38,51 @@ body {
   background-color: rgba(255, 153, 0, 0.42);
   mix-blend-mode: normal;
   border-radius: 0;
-  opacity:100%;
+  opacity: 100%;
 }
 
-.signin {
-  margin-left: 40%;
-  margin-right: 10rem;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  opacity:1;
-font-size: larger;
-padding-top: 10rem;
+.login {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  color: black;
+  font-family: Ledger, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  opacity: 1;
+  font-size: 30px;
 }
 
-.signin:hover {
-  font-size:xx-large;
-  opacity:1;
-
+.login:hover {
+  color: white;
 }
 
 .title {
-  margin: 0 1rem;
+  margin: 0;
   align-items: center;
-  opacity:1;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 10;
+  left: 46%;
+  color: black;
+  opacity: 1;
+  font-family:"Kaushan Script", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: xx-large;
-  padding-left: 46%;
+}
 
+.title:hover {
+  color: white;
 }
 
 .about {
-  margin-right: 3rem;
-  margin-left: 10rem;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  color: black;
   opacity:1;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: larger;
-  padding-top: 20%;
-
+  font-family: Ledger, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
 }
 
 .about:hover {
-  font-size:xx-large;
-  opacity:1;
+  color: white;
 }
 
 
