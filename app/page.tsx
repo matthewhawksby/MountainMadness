@@ -8,10 +8,24 @@ export default function Home() {
   return (
     <main>
       <section className="section">
-        <Link href="/Login" className="signin">Sign in</Link>
-        <p className="title">PawSwipe</p>
-        <Link href="/About" className="about">About</Link>
-      </section>
+        <h1 className="title">PawSwipe   App</h1>
+      </section>        
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Link href="/Login" className="signin">Sign in</Link>
+      <Link href="/About" className="about">About</Link>
+
     </main>
   );
 }
