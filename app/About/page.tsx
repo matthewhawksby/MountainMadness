@@ -5,6 +5,7 @@ import '../globals.css';
 
 const About = () => {
   return (
+    
     <div className="AboutUs w-96 h-96 relative bg-white">
   <div className="PetmatchIsTheUltimatePetDatingAppWhereYouCanSwipeRightToFindCompanionshipJustLikeTinderButForDogsPetmatchLetsYouCreateAProfileForYourselfAndSwipeThroughOtherAdorableProfilesInYourAreaConnectChatAndSetUpPlayDatesWithPetsDevelopedBy w-96 left-[52.87px] top-[365.02px] absolute text-blue-950 text-opacity-70 text-3xl font-normal font-['Ledger']">PetMatch is the ultimate pet dating app where you can swipe right to find companionship! Just like Tinder, but for dogs, PetMatch lets you create a profile for yourself and swipe through other adorable profiles in your area. Connect, chat, and set up play dates with pets. Developed by ...</div>
   <div className="AboutUs left-[54.58px] top-[189.62px] absolute text-blue-950 text-opacity-70 text-7xl font-normal font-['Ledger']">About Us</div>
