@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { sql } from "@vercel/postgres";
 import DrawInfoFromDatabase from "./drawInfo";
+import ListAllImages from "./getImage";
 
 export default function Home() {
   return (
@@ -114,6 +114,9 @@ export default function Home() {
       </div>
       <div>
         <DrawInfoFromDatabase params={{ user: 'DoesNotDoAnything'}} />
+      </div>
+      <div>
+        <ListAllImages/>
       </div>
     </main>
   );
