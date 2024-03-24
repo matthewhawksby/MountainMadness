@@ -16,11 +16,11 @@ The application allows new users to sign up and log in. Once logged in, users ar
 
 #### Frontend:
 
-- TypeScript, CSS, JavaScript
+- TypeScript, CSS, JavaScript, Tailwind
 
 #### Framework:
 
-- React
+- React, Next.JS
 
 ## 👥 Meet the Team
 
