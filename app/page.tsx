@@ -1,23 +1,6 @@
 import Image from "next/image";
 import { sql } from "@vercel/postgres";
-
-export async function DrawInfoFromDatabase({
-  params
-} : {
-  params: { user: string }
-}): Promise<JSX.Element> {
-  const { rows } = await sql`SELECT username from USERS`;
-
-  return (
-    <div>
-      {rows.map((row, index) => (
-        <div key={index}>
-          {row.username}
-        </div>
-      ))}
-    </div>
-  );
-}
+import DrawInfoFromDatabase from "./drawInfo";
 
 export default function Home() {
   return (
